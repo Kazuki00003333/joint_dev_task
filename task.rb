@@ -40,7 +40,7 @@ def q5
 
   # 以下に回答を記載
 p [].empty?
-p [1,5,8,10]empty?
+p [1,5,8,10].empty?
 end
 
 def q6
