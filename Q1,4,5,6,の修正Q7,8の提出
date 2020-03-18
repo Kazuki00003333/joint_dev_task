@@ -5,7 +5,7 @@ def q1
   names = ["田中", "佐藤", "佐々木", "高橋"]
 
   # 以下に回答を記載
-names.push ("斎藤")
+names << ("斎藤")
 p names
 end
 
@@ -47,7 +47,7 @@ def q6
   numbers1 = [1, 2, 3, 4, 5]
 
   # 以下に回答を記載
-p numbers1.map!{|x|x*10}
+p numbers2 = numbers1.map!{|x|x*10}
 end
 
 def q7
