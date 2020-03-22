@@ -73,7 +73,7 @@ def q9
 
   # 以下に回答を記載
   names.each.with_index(1) do |name,i|
-    puts "会員No.#{i} #{name}さん"
+    p "会員No.#{i} #{name}さん"
   end
 end
 
@@ -82,9 +82,9 @@ def q10
 
   # 以下に回答を記載
 if foods.include?("うに")
-  puts "好物です"
+  p "好物です"
 elsif
-  puts "まぁまぁ好きです"
+  p "まぁまぁ好きです"
 end
 end
 
