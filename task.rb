@@ -146,7 +146,8 @@ def q16
   ]
 
   # 以下に回答を記載
-
+users.each do |user|
+  p "私の名前は"
 
 
 end
