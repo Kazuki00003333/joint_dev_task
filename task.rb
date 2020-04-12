@@ -190,9 +190,9 @@ def initialize(name:,age:)
 end
 def introduce
   if @age > 31
-    p "こんにちは、#{@name}と申します。宜しくお願いいたします。"
+     "こんにちは、#{@name}と申します。宜しくお願いいたします。"
   else
-    p "はいさいまいど〜、#{@name}です！！！"
+     "はいさいまいど〜、#{@name}です！！！"
   end
 end
 end
